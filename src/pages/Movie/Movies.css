@@ -1,0 +1,37 @@
+iframe {
+	border: 0;
+}
+.video-frame iframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 100%;
+}
+.video-frame {
+	position: relative;
+	height: 600px;
+	margin-bottom: 5%;
+}
+@media screen and (max-width: 900px) {
+	.video-frame {
+		height: 400px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.video-frame {
+		height: 300px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.video-frame {
+		height: 250px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.video-frame {
+		height: 200px;
+	}
+}
